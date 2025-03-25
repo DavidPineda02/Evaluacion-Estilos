@@ -1,0 +1,79 @@
+.border-radius {
+    width: 150px;
+    height: 150px;
+    border: 4px solid lightgreen;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.box-shadow {
+    width: 200px;
+    height: 200px;
+    background-color: lightcoral    ;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+.hexadec1, .hexadec2, .hexadec3 {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin-bottom: 20px;
+} 
+
+.hexadec1 { 
+    background-color: #459a96; 
+}
+
+.hexadec2 { 
+    background-color: #999175; 
+}
+
+.hexadec3 { 
+    background-color: #fffdd1; 
+}
+
+.color-hsl {
+    width: 100px;
+    height: 100px;
+    background-color: hsl(150, 90%, 60%);
+    margin-bottom: 20px;
+}
+
+.color-rgb, .color-rgba {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.color-rgb { 
+    background-color: rgb(58, 201, 70); 
+}
+.color-rgba { 
+    background-color: rgba(255, 50, 238, 0.2); 
+}
+
+.background-image {
+    width: 300px;
+    height: 300px;
+    background-image: url('/img/z1000.jpg');
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+.background-fixed {
+    width: 100%;
+    height: 300px;
+    background-image: url('/img/fondo-moto.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.gradiente {
+    width: 400px;
+    height: 200px;
+    background: linear-gradient(to right, yellow, red);
+    margin-bottom: 20px;
+}
